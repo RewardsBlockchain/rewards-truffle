@@ -7,7 +7,7 @@ import "./lib/SafeMath.sol";
 
 /**
  * @title Contract for distribution of tokens
- * Copyright 2018, Rewards Blockchain Systems
+ * Copyright 2018, Rewards Blockchain Systems (Rewards.com)
  */
 contract RewardsTokenDistribution is Ownable {
     using SafeMath for uint256;

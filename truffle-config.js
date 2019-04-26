@@ -6,10 +6,16 @@ module.exports = {
             network_id: "*" // Match any network id
         }
     },
-    solc: {
-        optimizer: {
-            enabled: true,
-            runs: 200
+    mocha: {
+        enableTimeouts: true
+    },
+    compilers: {
+        solc: {
+            version: "0.5.4",    // Fetch exact version from solc-bin (default: truffle's version),
+            optimizer: {
+                enabled: true,
+                runs: 200
+            }
         }
     }
 };
