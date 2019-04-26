@@ -5,7 +5,7 @@ import "./lib/SafeMath.sol";
 
 /**
  * @title Contract for Rewards Token
- * Copyright 2018, XinHong Lee (Rewards)
+ * Copyright 2018, Rewards Blockchain Systems
  */
 
 contract RewardsToken is Ownable {

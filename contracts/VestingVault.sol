@@ -5,7 +5,7 @@ import './RewardsToken.sol';
  * @title Contract that will hold vested tokens;
  * @notice Tokens for vested contributors will be hold in this contract and token holders
  * will claim their tokens according to their own vesting timelines.
- * Copyright 2018, XinHong Lee (Rewards)
+ * Copyright 2018, Rewards Blockchain Systems
  */
 contract VestingVault is Ownable {
     using SafeMath for uint256;
